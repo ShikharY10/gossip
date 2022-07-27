@@ -6,6 +6,8 @@ encryption algorithm. A unique key is being shared between users using RSA asymm
 
 It uses websockets for real-time communication between user and servers. It also uses RestAPI for some request-response kind of stuffs. It uses rabbitMQ for communication between microservices. We achieve it in way that every service that is running hase it own channel/queue in rabbitMQ through which it communicate with other.
 
+![](images/arch.jpg)
+
 ## Technologies that is being used:
   * <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png"></code> Golang
   * <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code> Flutter/Dart
