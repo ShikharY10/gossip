@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <div align="center">
   <img src="images/logo.png" alt="Magator Logo" width="320" height="300">
   <h1>GossiP</h1>
