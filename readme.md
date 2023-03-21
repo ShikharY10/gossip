@@ -8,12 +8,8 @@
 
 <hr>
 
-A chat system that provide high awailability and scalibility. It garantees that the msg will be delivered to the target atleast once. It achieve the garantee of delivering of message by persisting the message in the database and once the data is reached to the target, the target will send the achnowledgement and the message will be removed from the database. Every chat message that is send from user to another is being encrypted by AES symmetric
-encryption algorithm. A unique key is being shared between users using RSA asymmetric encryption algorithm before they starts chatting.
 
-It uses websockets for real-time communication between user and servers. It also uses RestAPI for some request-response kind of stuffs. It uses rabbitMQ for communication between microservices. We achieve it in way that every service that is running hase it own channel/queue in rabbitMQ through which it communicate with other.
-
-![](images/arch.jpg)
+# UNDER DEVELOPMENT
 
 ## Technologies that is being used:
 
